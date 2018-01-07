@@ -94,11 +94,11 @@
 
   (q/save "out.png"))
 
-(q/defsketch nen
-  :title      "super-omedetai"
-  :size       [800 800]
-  :setup      config
-  :update     actualiza-estado
-  :draw       dibuja-estado
-  :features   [:keep-on-top]
-  :middleware [m/fun-mode])
+;; (q/defsketch nen
+;;   :title      "super-omedetai"
+;;   :size       [800 800]
+;;   :setup      config
+;;   :update     actualiza-estado
+;;   :draw       dibuja-estado
+;;   :features   [:keep-on-top]
+;;   :middleware [m/fun-mode])
